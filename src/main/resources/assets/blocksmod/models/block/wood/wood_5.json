@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "blocksmod:blocks/wood/wood_5"
+    }
+}

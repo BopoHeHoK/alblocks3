@@ -1,0 +1,262 @@
+{
+  "variants": {
+    "inventory": [
+      {}
+    ],
+    "facing": {
+      "east": {
+        "half": {
+          "bottom": {
+            "shape": {
+              "straight": {
+                "model": "blocksmod:block/roof/stairs/roof_0_stairs"
+              },
+              "outer_right": {
+                "model": "blocksmod:block/roof/outerstairs/outer/roof_0_outer_stairs"
+              },
+              "outer_left": {
+                "model": "blocksmod:block/roof/outerstairs/roof_0_outer_stairs",
+                "y": 270,
+                "uvlock": true
+              },
+              "inner_right": {
+                "model": "blocksmod:block/roof/innerstairs/roof_0_inner_stairs"
+              },
+              "inner_left": {
+                "model": "blocksmod:block/roof/innerstairs/roof_0_inner_stairs",
+                "y": 270,
+                "uvlock": true
+              }
+            }
+          },
+          "top": {
+            "shape": {
+              "straight": {
+                "model": "blocksmod:block/roof/stairs/roof_0_stairs",
+                "x": 180,
+                "uvlock": true
+              },
+              "outer_right": {
+                "model": "blocksmod:block/roof/outerstairs/outer/roof_0_outer_stairs",
+                "x": 180,
+                "y": 90,
+                "uvlock": true
+              },
+              "outer_left": {
+                "model": "blocksmod:block/roof/outerstairs/outer/roof_0_outer_stairs",
+                "x": 180,
+                "uvlock": true
+              },
+              "inner_right": {
+                "model": "blocksmod:block/roof/innerstairs/roof_0_inner_stairs",
+                "x": 180,
+                "y": 90,
+                "uvlock": true
+              },
+              "inner_left": {
+                "model": "blocksmod:block/roof/innerstairs/roof_0_inner_stairs",
+                "x": 180,
+                "uvlock": true
+              }
+            }
+          }
+        }
+      },
+      "west": {
+        "half": {
+          "bottom": {
+            "shape": {
+              "straight": {
+                "model": "blocksmod:block/roof/stairs/roof_0_stairs",
+                "y": 180,
+                "uvlock": true
+              },
+              "outer_right": {
+                "model": "blocksmod:block/roof/outerstairs/outer/roof_0_outer_stairs",
+                "y": 180,
+                "uvlock": true
+              },
+              "outer_left": {
+                "model": "blocksmod:block/roof/outerstairs/outer/roof_0_outer_stairs",
+                "y": 90,
+                "uvlock": true
+              },
+              "inner_right": {
+                "model": "blocksmod:block/roof/innerstairs/roof_0_inner_stairs",
+                "y": 180,
+                "uvlock": true
+              },
+              "inner_left": {
+                "model": "blocksmod:block/roof/innerstairs/roof_0_inner_stairs",
+                "y": 90,
+                "uvlock": true
+              }
+            }
+          },
+          "top": {
+            "shape": {
+              "straight": {
+                "model": "blocksmod:block/roof/stairs/roof_0_stairs",
+                "x": 180,
+                "y": 180,
+                "uvlock": true
+              },
+              "outer_right": {
+                "model": "blocksmod:block/roof/outerstairs/outer/roof_0_outer_stairs",
+                "x": 180,
+                "y": 270,
+                "uvlock": true
+              },
+              "outer_left": {
+                "model": "blocksmod:block/roof/outerstairs/outer/roof_0_outer_stairs",
+                "x": 180,
+                "y": 180,
+                "uvlock": true
+              },
+              "inner_right": {
+                "model": "blocksmod:block/roof/innerstairs/roof_0_inner_stairs",
+                "x": 180,
+                "y": 270,
+                "uvlock": true
+              },
+              "inner_left": {
+                "model": "blocksmod:block/roof/innerstairs/roof_0_inner_stairs",
+                "x": 180,
+                "y": 180,
+                "uvlock": true
+              }
+            }
+          }
+        }
+      },
+      "south": {
+        "half": {
+          "bottom": {
+            "shape": {
+              "straight": {
+                "model": "blocksmod:block/roof/stairs/roof_0_stairs",
+                "y": 90,
+                "uvlock": true
+              },
+              "outer_right": {
+                "model": "almura:grass_path_outer_stairs",
+                "y": 90,
+                "uvlock": true
+              },
+              "outer_left": {
+                "model": "almura:grass_path_outer_stairs"
+              },
+              "inner_right": {
+                "model": "almura:grass_path_inner_stairs",
+                "y": 90,
+                "uvlock": true
+              },
+              "inner_left": {
+                "model": "blocksmod:block/roof/innerstairs/roof_0_inner_stairs"
+              }
+            }
+          },
+          "top": {
+            "shape": {
+              "straight": {
+                "model": "almura:grass_path_stairs",
+                "x": 180,
+                "y": 90,
+                "uvlock": true
+              },
+              "outer_right": {
+                "model": "almura:grass_path_outer_stairs",
+                "x": 180,
+                "y": 180,
+                "uvlock": true
+              },
+              "outer_left": {
+                "model": "almura:grass_path_outer_stairs",
+                "x": 180,
+                "y": 90,
+                "uvlock": true
+              },
+              "inner_right": {
+                "model": "almura:grass_path_inner_stairs",
+                "x": 180,
+                "y": 180,
+                "uvlock": true
+              },
+              "inner_left": {
+                "model": "almura:grass_path_inner_stairs",
+                "x": 180,
+                "y": 90,
+                "uvlock": true
+              }
+            }
+          }
+        }
+      },
+      "north": {
+        "half": {
+          "bottom": {
+            "shape": {
+              "straight": {
+                "model": "almura:grass_path_stairs",
+                "y": 270,
+                "uvlock": true
+              },
+              "outer_right": {
+                "model": "almura:grass_path_outer_stairs",
+                "y": 270,
+                "uvlock": true
+              },
+              "outer_left": {
+                "model": "almura:grass_path_outer_stairs",
+                "y": 180,
+                "uvlock": true
+              },
+              "inner_right": {
+                "model": "almura:grass_path_inner_stairs",
+                "y": 270,
+                "uvlock": true
+              },
+              "inner_left": {
+                "model": "almura:grass_path_inner_stairs",
+                "y": 180,
+                "uvlock": true
+              }
+            }
+          },
+          "top": {
+            "shape": {
+              "straight": {
+                "model": "almura:grass_path_stairs",
+                "x": 180,
+                "y": 270,
+                "uvlock": true
+              },
+              "outer_right": {
+                "model": "almura:grass_path_outer_stairs",
+                "x": 180,
+                "uvlock": true
+              },
+              "outer_left": {
+                "model": "almura:grass_path_outer_stairs",
+                "x": 180,
+                "y": 270,
+                "uvlock": true
+              },
+              "inner_right": {
+                "model": "almura:grass_path_inner_stairs",
+                "x": 180,
+                "uvlock": true
+              },
+              "inner_left": {
+                "model": "almura:grass_path_inner_stairs",
+                "x": 180,
+                "y": 270,
+                "uvlock": true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

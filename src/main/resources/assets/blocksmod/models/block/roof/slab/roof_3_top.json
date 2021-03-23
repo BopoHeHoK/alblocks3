@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "side": "blocksmod:blocks/roof/roof_3",
+    "bottom": "blocksmod:blocks/roof/roof_3",
+    "top": "blocksmod:blocks/roof/roof_3"
+  }
+}

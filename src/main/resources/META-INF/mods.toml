@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[35,)"
+license="Все права защищены"
+
+[[mods]]
+modId="blocksmod"
+version="$1.0"
+displayName="Мод на Блоки"
+logoFile="AlterLandOriginal.png"
+authors=["Aviator737",
+         "BopoHeHoK.",
+         "DeadSigma"]
+description='''
+
+Мод на Блоки для RP-сервера AlterLand.
+
+'''
+
+[[dependencies.blocksmod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[35,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.blocksmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.4,1.17)"
+    ordering="NONE"
+    side="BOTH"

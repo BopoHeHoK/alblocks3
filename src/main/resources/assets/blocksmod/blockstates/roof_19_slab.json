@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=double": {
+      "model": "blocksmod:block/roof/block/roof_19"
+    },
+    "type=bottom": {
+      "model": "blocksmod:block/roof/slab/roof_19_slab"
+    },
+    "type=top": {
+      "model": "blocksmod:block/roof/slab/roof_19_top"
+    }
+  }
+}
